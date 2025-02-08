@@ -1,0 +1,5 @@
+c++ 运行分四步，编写程序，预处理，汇编，链接（生产点.o文件），生产可执行代码                           意外发现vscode可以直接链接github仓库
+
+！！！！！ g++ -std=c++11 your_file.cpp -o your_program  #window系统下要加.exe -o指定生产的文件名称     
+
+！！！！！ 关于vscode中只能有一个main（）函数，即使在不同的cpp文件中
