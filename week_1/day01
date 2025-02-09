@@ -3,3 +3,26 @@ c++ 运行分四步，编写程序，预处理，汇编，链接（生产点.o�
 ！！！！！ g++ -std=c++11 your_file.cpp -o your_program  #window系统下要加.exe -o指定生产的文件名称     
 
 ！！！！！ 关于vscode中只能有一个main（）函数，即使在不同的cpp文件中
+
+
+git是版本控制器，github是控制器仓库。 linux创建文本文件 touch 
+
+常用的命令行
+
+git clone   git clone https://github.com/你的用户名/Drone-Arm-Dev.git #用于拷贝仓库文件到本地
+
+
+本地仓库操作
+git add  git add 文件名/src/文件.cpp    #将文件添加到暂存区
+git commit -m "文件名"  #添加当前版本主要描述以及文件到本地仓库
+git push origin main #将文件部署到github仓库中
+
+git branch #分支操作
+git checkout week1 #切换到对应分支
+
+git log --oneline #查看历史版本
+git reset id七位 #回溯版本
+
+
+github仓库操作
+add file
