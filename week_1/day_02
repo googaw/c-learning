@@ -1,0 +1,6 @@
+关于命名空间，类以及结构，命名空间主要是进行域操作
+常见的using spacename std 就是声明使用以及省略std命名空间，不可使用类方法，::a可以视作使用全局作用域的a值而不是局部作用域
+
+关于python中 类方法@classmethod 有自由多种功能 
+1.如无需实例化，直接调用
+2.创造实例格式，不局限于__init__   return cls(name,age,money)
